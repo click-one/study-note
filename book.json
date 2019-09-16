@@ -1,0 +1,87 @@
+{
+    "title": "go 学习笔记",
+    "author": "张德满 <mail : go_developer@163.com phone : 17710580607>",
+    "description": "auto-api服务设计使用文档",
+    "language": "zh-hans",
+    "links" : {
+        "sidebar" : {
+            "Github地址" : "https://github.com/go-developer"
+        }
+    },
+    "plugins": [
+        "-search",
+        "search-pro",
+        "advanced-emoji",
+        "github",
+        "splitter",
+        "-tbfed-pagefooter",
+        "toggle-chapters",
+        "sectionx",
+        "codeblock-filename",
+        "donate",
+        "back-to-top-button",
+        "chapter-fold",
+        "code",
+        "todo",
+        "page-copyright",
+        "-page-treeview",
+        "simple-page-toc",
+        "page-toc-button",
+        "flexible-alerts",
+        "auto-scroll-table",
+        "pageview-count",
+        "popup"
+    ],
+    "pluginsConfig": {
+        "search-pro": {
+            "cutWordLib": "nodejieba",
+            "defineWord" : ["Gitbook Use"]
+        },
+        "github": {
+            "url": "https://github.com/go-developer/auto-api.git"
+        },
+        "sharing": {
+            "weibo": true,
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "instapaper"
+            ]
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy 张德满<go_developer@163.com> 2019",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "donate": {
+            "wechat": "https://raw.githubusercontent.com/go-developer/auto-api-doc/master/pay/wechat-pay.jpeg",
+            "alipay": "https://raw.githubusercontent.com/go-developer/auto-api-doc/master/pay/ali-pay.jpeg",
+            "title": "感谢赞助",
+            "button": "赏",
+            "alipayText": "支付宝打赏",
+            "wechatText": "微信打赏"
+        },
+        "page-copyright": {
+            "description": "modified at",
+            "signature": "张德满",
+            "wisdom": "开发者 & 文档维护者 张德满",
+            "format": "YYYY-MM-dd hh:mm:ss",
+            "copyright": "Copyright &#169; 张德满",
+            "timeColor": "#666",
+            "copyrightColor": "#666",
+            "utcOffset": "8",
+            "style": "normal",
+            "noPowered": true,
+            "baseUri": "https://github.com/go-developer",
+            "repo": "go-developer/auto-api"
+        },
+        "page-toc-button": {
+            "maxTocDepth": 5,
+            "minTocSize": 5
+        }
+    }
+}
