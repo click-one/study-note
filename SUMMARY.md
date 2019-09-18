@@ -4,4 +4,5 @@
 	* [第一章: 经验](go/experience/README.md)
 		* [第一节: 方法的指针接收和非指针接收](go/experience/experience.md)
 		* [第二节: go init 函数](go/experience/init.md)
+		* [第三节: go modules](go/experience/gomodule.md)
 
