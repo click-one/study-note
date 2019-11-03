@@ -6,3 +6,14 @@
 		* [第二节: go init 函数](go/experience/init.md)
 		* [第三节: go modules](go/experience/gomodule.md)
 
+* [leetcode题解](leetcode/README.md)
+	* [容易题目](leetcode/easy/README.md)
+	* [中等难度题目](leetcode/middle/README.md)
+		* [大数相乘](leetcode/middle/大数相乘.md)
+	* [困难题目](leetcode/hard/README.md)
+
+* [redis学习笔记](redis/README.md)
+	* [geo相关](redis/geo/geo.md)
+		* [geoadd命令](redis/geo/geoadd.md)
+		* [geopos命令](redis/geo/geopos.md)
+
