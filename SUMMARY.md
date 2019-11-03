@@ -16,4 +16,4 @@
 	* [geo相关](redis/geo/geo.md)
 		* [geoadd命令](redis/geo/geoadd.md)
 		* [geopos命令](redis/geo/geopos.md)
-
+		* [geodist命令](redis/geo/geodist.md)

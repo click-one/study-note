@@ -17,6 +17,8 @@
 
 ## 使用示例
 
+	geoadd demo 116.406568 39.915378 "tiananmen" 116.433589 39.909622 "guangqumen"
+
 	1. geopos demo tiananmen guangqumen, 返回如下：
 		1) 1) "116.40657037496566772"
 		   2) "39.91537824494462683"
