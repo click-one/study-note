@@ -5,11 +5,11 @@
 
     该命令返回11个字符的 Geohash 字符串，因此与 Redis 内部52位表示相比，没有任何精度损失。返回的 Geohashes 具有以下属性：
 
-    1. 他们可以缩短删除右侧的字符。它会失去精确度，但仍会指向同一区域。
+        1. 他们可以缩短删除右侧的字符。它会失去精确度，但仍会指向同一区域。
 
-    2. 可以在geohash.org URL 中使用它们，例如http://geohash.org/<geohash-string>。这是这种 URL 的一个例子。
+        2. 可以在geohash.org URL 中使用它们，例如http://geohash.org/<geohash-string>。这是这种 URL 的一个例子。
 
-    3. 带有相似前缀的字符串在附近，但相反的情况并非如此，有可能前缀不同的字符串也在附近。
+        3. 带有相似前缀的字符串在附近，但相反的情况并非如此，有可能前缀不同的字符串也在附近。
 
 ## 命令格式
     GEOHASH key member [member ...]
