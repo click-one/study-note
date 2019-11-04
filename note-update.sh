@@ -6,6 +6,8 @@ do
     cd `pwd`
     # 拉代码
     git pull
+    # 重新生成页面
+    gitbook build
     # 休眠60s
     sleep 60
 done
