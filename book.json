@@ -58,8 +58,7 @@
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "donate": {
-            "wechat": "https://raw.githubusercontent.com/go-developer/auto-api-doc/master/pay/wechat-pay.jpeg",
-            "alipay": "https://raw.githubusercontent.com/go-developer/auto-api-doc/master/pay/ali-pay.jpeg",
+            "wechat": "/img/WechatIMG90.jpeg",
             "title": "感谢赞助",
             "button": "赏",
             "alipayText": "支付宝打赏",
