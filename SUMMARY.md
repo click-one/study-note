@@ -17,3 +17,4 @@
 		* [geoadd命令](redis/geo/geoadd.md)
 		* [geopos命令](redis/geo/geopos.md)
 		* [geodist命令](redis/geo/geodist.md)
+		* [georadius命令](redis/geo/georadius.md)
