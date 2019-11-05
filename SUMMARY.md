@@ -19,3 +19,4 @@
 		* [geodist命令](redis/geo/geodist.md)
 		* [georadius命令](redis/geo/georadius.md)
 		* [geohash命令](redis/geo/geohash.md)
+	* [hash相关](redis/hash/hash.md)
