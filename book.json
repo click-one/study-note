@@ -32,7 +32,8 @@
         "pageview-count",
         "popup",
         "theme-fexa",
-        "hide-element"
+        "hide-element",
+        "insert-logo"
     ],
     "pluginsConfig": {
         "search-pro": {
@@ -112,6 +113,10 @@
         },
         "hide-element": {
             "elements": ["gitbook-link"]
+        },
+        "insert-logo": {
+            "url": "/img/head-logo.jpeg",
+            "style": "background: none; max-height: 80px; min-height: 80px"
         }
     },
     "variables": {
