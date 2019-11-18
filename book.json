@@ -30,7 +30,8 @@
         "flexible-alerts",
         "auto-scroll-table",
         "pageview-count",
-        "popup"
+        "popup",
+        "theme-fexa"
     ],
     "pluginsConfig": {
         "search-pro": {
@@ -81,6 +82,43 @@
         "page-toc-button": {
             "maxTocDepth": 5,
             "minTocSize": 5
+        },
+        "flexible-alerts": {
+            "note": {
+                "label": {
+                  "de": "Hinweis",
+                  "en": "Note"
+                }
+            },
+            "tip": {
+                "label": {
+                  "de": "Tipp",
+                  "en": "Tip"
+                }
+            },
+            "warning": {
+                "label": {
+                  "de": "Warnung",
+                  "en": "Warning"
+                }
+            },
+            "danger": {
+                "label": {
+                  "de": "Achtung",
+                  "en": "Attention"
+                }
+            }
+        }
+    },
+    "variables": {
+        "themeFexa":{
+            "nav":[
+                {
+                    "url":"/",
+                    "target":"_blank",
+                    "name": "张德满学习笔记"
+                }
+            ]
         }
     }
 }
