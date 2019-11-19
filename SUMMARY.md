@@ -22,3 +22,6 @@
 	* [hash相关](redis/hash/hash.md)
 	* [设计与实现](redis/设计与实现/README.md)
 		* [sds实现](redis/设计与实现/简单动态字符串.md)
+
+* [c学习笔记(辅助redis源码阅读)](c/README.md)
+	* [内联函数inline](c/内联函数inline.md)
