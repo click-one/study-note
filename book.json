@@ -80,7 +80,7 @@
             "style": "normal",
             "noPowered": true,
             "baseUri": "https://github.com/go-developer",
-            "repo": "go-developer/auto-api"
+            "repo": "study-note"
         },
         "page-toc-button": {
             "maxTocDepth": 5,
