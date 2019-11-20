@@ -33,8 +33,10 @@
         "popup",
         "-theme-fexa",
         "theme-cornerstone",
+        "-theme-gestalt",
         "hide-element",
-        "insert-logo"
+        "insert-logo",
+        "baidu-tongji"
     ],
     "pluginsConfig": {
         "search-pro": {
@@ -118,6 +120,9 @@
         "insert-logo": {
             "url": "/img/head-logo.jpeg",
             "style": "background: none; max-height: 80px; min-height: 80px"
+        },
+        "baidu-tongji": {
+            "token": "5e7291930ee4174ab0c82a9a93cdc935"
         }
     },
     "variables": {
