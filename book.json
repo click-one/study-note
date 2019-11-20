@@ -31,7 +31,8 @@
         "auto-scroll-table",
         "pageview-count",
         "popup",
-        "theme-fexa",
+        "-theme-fexa",
+        "theme-cornerstone",
         "hide-element",
         "insert-logo"
     ],
