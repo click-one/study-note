@@ -53,13 +53,3 @@ etcd | 了解
 贝壳找房 | binlog消息服务 | GO | 基于binlog变化的消息分发程序 | 主要设计开发人员
 贝壳找房 | 部门服务网关 | GO/JAVA | 部门内服务网关、流控、鉴权、数据脱敏等 | 主要设计开发人员
 贝壳找房 | 3D模型服务 | GO | 基于现有的二维物理数据生成三维的模型 | 主要设计开发人员
-
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?5e7291930ee4174ab0c82a9a93cdc935";
-  var s = document.getElementsByTagName("script")[0];
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
