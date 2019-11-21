@@ -36,7 +36,10 @@
         "-theme-gestalt",
         "hide-element",
         "insert-logo",
-        "baidu-tongji"
+        "baidu-tongji",
+        "-expandable-chapters-small-auto",
+        "-book-summary-scroll-position-saver",
+        "ad"
     ],
     "pluginsConfig": {
         "search-pro": {
@@ -123,6 +126,10 @@
         },
         "baidu-tongji": {
             "token": "5e7291930ee4174ab0c82a9a93cdc935"
+        },
+        "ad": {
+          "contentTop": "",
+          "contentBottom": ""
         }
     },
     "variables": {
