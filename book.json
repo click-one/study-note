@@ -20,6 +20,7 @@
         "codeblock-filename",
         "donate",
         "back-to-top-button",
+        "-expandable-chapters",
         "chapter-fold",
         "code",
         "todo",
@@ -39,7 +40,8 @@
         "baidu-tongji",
         "-expandable-chapters-small-auto",
         "-book-summary-scroll-position-saver",
-        "ad"
+        "ad",
+        "include-html"
     ],
     "pluginsConfig": {
         "search-pro": {
@@ -74,11 +76,11 @@
             "wechatText": "微信打赏"
         },
         "page-copyright": {
-            "description": "modified at",
+            "description": "文档修改于",
             "signature": "张德满",
             "wisdom": "开发者 & 文档维护者 张德满",
             "format": "YYYY-MM-dd hh:mm:ss",
-            "copyright": "Copyright &#169; 张德满",
+            "copyright": "版权所有 &#169; 张德满",
             "timeColor": "#666",
             "copyrightColor": "#666",
             "utcOffset": "8",
