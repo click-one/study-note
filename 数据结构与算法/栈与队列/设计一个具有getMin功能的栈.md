@@ -18,18 +18,8 @@ pop、push、getMin时间复杂度为O(1)
 
 ### 压入数据规则
 
-假设当前要入栈数据为 newNum, 则算法流程图如下:
+假设当前要入栈数据为 newNum, 则算法逻辑如下:
 
-**方案流程图**
-
-```mermaid
-graph TD;
-start(新数据newNum准备入栈)-->judgeStacckMin{stackMin栈是否为空};
-judgeStacckMin--是-->pushStackMin(newNum压入stackMin)
-judgeStacckMin--否-->compareStackMinAndNewNum{newNum > stackMin栈顶元素}
-compareStackMinAndNewNum--是-->noNeedOption[无需任何操作]
-compareStackMinAndNewNum--否-->pushStackMin(newNum压入stackMin)
-```
 - 将number压入stackData
 - 判断stack是否为空，若为空，newNum也压入stackMin
 - stackMin不为空, 比较numNum与stackMin栈顶元素比较
