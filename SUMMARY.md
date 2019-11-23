@@ -6,12 +6,6 @@
 		* [第二节: go init 函数](go/experience/init.md)
 		* [第三节: go modules](go/experience/gomodule.md)
 
-* [leetcode题解](leetcode/README.md)
-	* [容易题目](leetcode/easy/README.md)
-	* [中等难度题目](leetcode/middle/README.md)
-		* [大数相乘](leetcode/middle/大数相乘.md)
-	* [困难题目](leetcode/hard/README.md)
-
 * [redis学习笔记](redis/README.md)
 	* [geo相关](redis/geo/geo.md)
 		* [geoadd命令](redis/geo/geoadd.md)
@@ -25,8 +19,13 @@
 		* [第二节 : 链表(list)的实现](redis/设计与实现/链表.md)
 		* [第三节 : 字典的实现(一) - 基本原理](redis/设计与实现/字典.md)
 		* [第四节 : 字典的实现(二) - 哈希值的计算](redis/设计与实现/字典哈希值的计算原理.md)
-		* [第五节 : 字典的实现(三) - 冲突的解决(rehash)](redis/设计与实现/字典哈希冲突的解决方案.md)
-		* [第六节 : 跳跃表(skiplist)的实现](redis/设计与实现/跳跃表.md)
+		* [第五节 : 字典的实现(三) - 冲突的解决](redis/设计与实现/字典哈希冲突的解决方案.md)
+		* [第六节 : 字典的实现(四) - rehash原理](redis/设计与实现/字典rehash原理.md)
+		* [第七节 : 跳跃表(skiplist)的实现](redis/设计与实现/跳跃表.md)
 
 * [c学习笔记(辅助redis源码阅读)](c/README.md)
 	* [内联函数inline](c/内联函数inline.md)
+
+* [数据结构与算法](数据结构与算法/README.md)
+	* [第一章 : 栈与队列](数据结构与算法/栈与队列/README.md)
+		* [第一节 : 设计一个具有getMin功能的栈](数据结构与算法/栈与队列/设计一个具有getMin功能的栈.md)
