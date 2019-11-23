@@ -41,7 +41,9 @@
         "-expandable-chapters-small-auto",
         "-book-summary-scroll-position-saver",
         "ad",
-        "include-html"
+        "mermaid-flow",
+        "-include-html",
+        "include"
     ],
     "pluginsConfig": {
         "search-pro": {
