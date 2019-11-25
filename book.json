@@ -117,7 +117,7 @@
             }
         },
         "hide-element": {
-            "elements": []
+            "elements": [".gitbook-link"]
         },
         "insert-logo": {
             "url": "/img/head-logo.jpeg",
