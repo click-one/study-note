@@ -32,13 +32,13 @@
         "-theme-fexa",
         "theme-cornerstone@1.1.4",
         "-theme-gestalt",
-        "hide-element@0.0.4",
         "insert-logo@0.1.5",
         "baidu-tongji@1.0.4",
         "ad@0.0.4",
         "mermaid-flow@0.0.7",
         "include-html@0.2.0",
-        "-include@0.1.0"
+        "-include@0.1.0",
+        "hide-element@0.0.4"
     ],
     "pluginsConfig": {
         "search-pro": {
