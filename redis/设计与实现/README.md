@@ -16,8 +16,8 @@
 
 `版本` : 5.0.6
 
-`git` : https://github.com/antirez/redis.git
+`官方git` : https://github.com/antirez/redis.git (commit :bb78454b0fef0dc5903328d037ac2520108e0044 (5.0.6版本,redis官方的commit))
 
-`commit` : bb78454b0fef0dc5903328d037ac2520108e0044 (5.0.6版本,redis官方的commit)
+`个人git` : https://github.com/go-developer/redis
 
-`注意` : 此仓库，增加了个人在阅读源码时增加的注解,出于个人的理解与c语言水平，部分注解可能不正确，有疑问可在具体章节提issue
+`注意` : 个人git仓库，增加了个人在阅读源码时增加的注解,出于个人的理解与c语言水平，部分注解可能不正确，有疑问可在具体章节提issue,大家共同讨论.或者 邮件 : **go_developer@163.com** QQ: **2215508028**
