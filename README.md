@@ -39,6 +39,7 @@ HBase | 了解
 es | 了解
 zookeeper | 了解
 etcd | 了解
+docker | 了解
 
 `项目经验` :
 
@@ -53,3 +54,9 @@ etcd | 了解
 贝壳找房 | binlog消息服务 | GO | 基于binlog变化的消息分发程序 | 主要设计开发人员
 贝壳找房 | 部门服务网关 | GO/JAVA | 部门内服务网关、流控、鉴权、数据脱敏等 | 主要设计开发人员
 贝壳找房 | 3D模型服务 | GO | 基于现有的二维物理数据生成三维的模型 | 主要设计开发人员
+
+<script>
+var pageId = "个人简历页"
+</script>
+
+!INCLUDE "./common/gitalk.html"
