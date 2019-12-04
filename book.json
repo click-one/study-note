@@ -38,7 +38,8 @@
         "mermaid-flow@0.0.7",
         "include-html@0.2.0",
         "-include@0.1.0",
-        "hide-element@0.0.4"
+        "hide-element@0.0.4",
+        "terminal@0.3.2"
     ],
     "pluginsConfig": {
         "search-pro": {
@@ -129,7 +130,12 @@
         "ad": {
           "contentTop": "",
           "contentBottom": ""
-      }
+        },
+        "terminal": {
+          "copyButtons": true,
+          "fade": false,
+          "style": "flat"
+        }
     },
     "variables": {
         "themeFexa":{
