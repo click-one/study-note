@@ -26,6 +26,7 @@
 		* [第九节 : 整数集合的实现(二) - 数据类型的升级与降级](redis/设计与实现/整数集合数据类型的升级与降级.md)
 		* [第十节 : 压缩列表的实现](redis/设计与实现/压缩列表.md)
 		* [第十一节 : 对象](redis/设计与实现/对象.md)
+		* [第十二节 : 内存管理](redis/设计与实现/内存管理.md)
 
 * [c学习笔记(辅助redis源码阅读)](c/README.md)
 	* [内联函数inline](c/内联函数inline.md)
@@ -33,6 +34,6 @@
 * [数据结构与算法](数据结构与算法/README.md)
 	* [第一章 : 栈与队列](数据结构与算法/栈与队列/README.md)
 		* [第一节 : 设计一个具有getMin功能的栈](数据结构与算法/栈与队列/设计一个具有getMin功能的栈.md)
-		
+
 * [phabricator教程](phabricator/README.md)
 	* [项目搭建](phabricator/phabricator.md)
