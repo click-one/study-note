@@ -41,3 +41,5 @@
 * [常用服务](middleware/README.md)
 	* [nginx](middleware/nginx/README.md)
 		* [编译安装nginx](middleware/nginx/install.md)
+	* [PHP](middleware/php/README.md)
+		* [编译安装PHP](middleware/php/install.md)
