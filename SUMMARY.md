@@ -37,3 +37,7 @@
 
 * [phabricator教程](phabricator/README.md)
 	* [项目搭建](phabricator/phabricator.md)
+
+* [常用服务](middleware/README.md)
+	* [nginx](middleware/nginx/README.md)
+		* [编译安装nginx](middleware/nginx/install.md)
