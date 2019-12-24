@@ -45,3 +45,5 @@
 		* [编译安装PHP](middleware/php/install.md)
 	* [MYSQL](middleware/mysql/README.md)
 		* [编译安装mysql](middleware/mysql/install.md)
+	* [elasticsearch](middleware/es/README.md)
+		* [es安装](middleware/es/install.md)
