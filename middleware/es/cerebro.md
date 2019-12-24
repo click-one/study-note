@@ -1,4 +1,4 @@
-# es可视化管理页面-ElasticHD
+# es可视化管理页面-cerebro
 
 ## 安装包下载
 
