@@ -48,3 +48,4 @@
 	* [elasticsearch](middleware/es/README.md)
 		* [es安装](middleware/es/install.md)
 		* [ik分词器安装](middleware/es/ik分词器.md)
+		* [可视化页面](middleware/es/cerebro.md)
