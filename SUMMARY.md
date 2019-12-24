@@ -47,3 +47,4 @@
 		* [编译安装mysql](middleware/mysql/install.md)
 	* [elasticsearch](middleware/es/README.md)
 		* [es安装](middleware/es/install.md)
+		* [ik分词器安装](middleware/es/ik分词器.md)
