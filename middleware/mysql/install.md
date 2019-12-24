@@ -131,6 +131,29 @@ ERROR 1820 (HY000): You must reset your password using ALTER USER statement befo
 
 **set password for root@localhost = password('你的密码');**
 
+## 编译安装参数说明
+
+- -DCMAKE_INSTALL_PREFIX 指定安装目录
+- -DMYSQL_UNIX_ADDR 指定服务器侦听套接字连接的Unix套接字文件路径，**默认/tmp/mysql.sock**。 这个值可以在服务器启动时用–socket选项来设置。所以这条可以去掉
+- -DMYSQL_DATADIR MySQL数据目录的位置。 该值可以在服务器启动时使用–datadir选项进行设置。
+- -DSYSCONFDIR 默认的my.cnf选项文件目录。 此位置不能在服务器启动时设置，但可以使用 **–defaults-file = file_name** 选项使用给定的选项文件启动服务器，其中file_name是该文件的完整路径名。
+- -DMYSQL_USER=mysql 指定用户名
+- -DMYSQL_TCP_PORT=3306 服务器侦听TCP / IP连接的端口号。默认值是3306。 该值可以在服务器启动时使用–port选项进行设置。
+- -DWITH_XTRADB_STORAGE_ENGINE=1 储存引擎 XTRADB
+- -DWITH_INNOBASE_STORAGE_ENGINE=1 储存引擎 INNOBASE
+- -DWITH_PARTITION_STORAGE_ENGINE=1 储存引擎 PARTITION
+- -DWITH_BLACKHOLE_STORAGE_ENGINE=1 储存引擎 BLACKHOLE
+- -DWITH_MYISAM_STORAGE_ENGINE=1 储存引擎 MYISAM
+- -DWITH_READLINE=1
+- -DENABLED_LOCAL_INFILE=1 该选项控制MySQL客户端库的已编译默认LOCAL功能?没太懂
+- -DWITH_EXTRA_CHARSETS=1 这个为什么是1，文档不是name ，字符串吗？ 要包含哪些额外的字符集： all complex none
+- -DDEFAULT_CHARSET=utf8 服务器字符集。默认情况下，MySQL使用latin1（cp1252西欧）字符集。 该值可以在服务器启动时使用 **–character_set_server** 选项进行设置。
+- -DDEFAULT_COLLATION 服务器整理。默认情况下，MySQL使用latin1_swedish_ci。该值可以在服务器启动时使用 **–character_set_server** 选项进行设置。
+- -DEXTRA_CHARSETS=all
+- -DWITH_BIG_TABLES=1
+- -DWITH_DEBUG=0 是否包含调试支持。
+
+
 <script>
 var pageId = "mysql编译安装"
 </script>
