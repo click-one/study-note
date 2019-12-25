@@ -49,3 +49,6 @@
 		* [es安装](middleware/es/install.md)
 		* [ik分词器安装](middleware/es/ik分词器.md)
 		* [可视化页面](middleware/es/cerebro.md)
+	* [MQ](middleware/mq/README.md)
+		* [rabbitMQ](middleware/mq/rabbit/README.md)
+			* [rabbitMQ搭建安装](middleware/mq/rabbit/install.md)
