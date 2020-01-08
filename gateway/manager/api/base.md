@@ -48,3 +48,9 @@ func GetSign(param map[string]interface{}, secret string) string {
 10101 | 创建项目配置失败
 10102 | 根据项目标识获取项目信息失败,一般是标识未注册或者sql异常均为此错误
 10103 | 项目标识已被占用,注册一个已存在的项目标识会返回此错误
+
+<script>
+var pageId = "网关设计-manger-api-接口公共基础信息"
+</script>
+
+!INCLUDE "../../../common/gitalk.html"
