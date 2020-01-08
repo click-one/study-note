@@ -38,7 +38,8 @@
 	* [API接口](gateway/manager/README.md)
 		* [API基础验证](gateway/manager/api/base.md)
 		* [项目管理API接口](gateway/manager/api/project/README.md)
-			* [创建项目API](gateway/manager/api/project/create.md)
+			* [创建项目](gateway/manager/api/project/create.md)
+			* [查询项目列表](gateway/manager/api/project/list.md)
 
 * [phabricator教程](phabricator/README.md)
 	* [项目搭建](phabricator/phabricator.md)
